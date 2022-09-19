@@ -388,3 +388,106 @@
 #contact-info .grid-container-contact-info .box i {
   margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+  #navbar .flex-container-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #navbar .flex-container-main h1 {
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  #navbar .flex-container-li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  #navbar .flex-container-li a {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: #444 dotted 1px;
+    width: 100%;
+  }
+  #navbar .flex-container-li li {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #showcase {
+    height: 100%;
+  }
+  #showcase .flex-container-showcase {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  #showcase .flex-container-showcase h1 {
+    text-align: center;
+  }
+  #home-info .grid-container-home-info-main {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #home-info .info-img {
+    display: none;
+  }
+  #features .grid-container-features {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #about-info .grid-container-about-info {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #about-info .info-text {
+    margin-bottom: 20px;
+  }
+  #about-info .info-text h1 {
+    text-align: center;
+  }
+  #testimonials {
+    padding-top: 50px;
+  }
+  #testimonials h2 {
+    line-height: 1.2;
+  }
+  #testimonials .testimonial {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #testimonials .testimonial img {
+    margin-bottom: 15px;
+  }
+  #contact-info .grid-container-contact-info {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #contact-info .box {
+    border-bottom: #444 dotted 1px;
+  }
+}
